@@ -1,0 +1,44 @@
+.footer {
+  padding: 50px 60px 20px;
+
+  background: #111;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-content h2 {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  color: #aaa;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #00bcd4;
+}
+
+.copyright {
+  margin-top: 40px;
+  padding-top: 20px;
+
+  border-top: 1px solid #333;
+
+  text-align: center;
+  color: #aaa;
+}

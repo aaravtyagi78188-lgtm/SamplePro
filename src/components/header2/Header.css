@@ -1,0 +1,93 @@
+   header {
+      width: 100%;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar {
+      max-width: 1200px;
+      height: 75px;
+      margin: auto;
+      padding: 0 25px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Logo */
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: #111827;
+    }
+
+    /* Navigation */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #374151;
+      font-size: 16px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #4f46e5;
+    }
+
+    /* Buttons */
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .login {
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: 600;
+      padding: 10px 18px;
+    }
+
+    .signup {
+      text-decoration: none;
+      color: white;
+      background:#61dafb;
+      padding: 11px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .signup:hover {
+      background: #3730a3;
+      transform: translateY(-2px);
+    }
+
+    /* Mobile Menu */
+    .menu-btn {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #111827;
+    }
+
+  
+
+      .logo {
+        font-size: 24px;}

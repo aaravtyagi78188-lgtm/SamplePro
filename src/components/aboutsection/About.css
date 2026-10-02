@@ -1,0 +1,63 @@
+.about-section {
+  padding: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 60px;
+
+  background: #f5f7fa;
+}
+
+.about-image {
+  width: 600px;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+
+  background: #ddd;
+
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url(https://www.mirrorreview.com/wp-content/uploads/2025/09/Web-Design-Trends-That-Shape-Modern-Websites.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-content {
+  width: 45%;
+}
+
+.about-title {
+  color: #00a8c6;
+  font-weight: bold;
+}
+
+.about-content h2 {
+  margin: 15px 0;
+  font-size: 40px;
+}
+
+.about-content p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.about-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #111;
+  color: white;
+
+  cursor: pointer;
+}
